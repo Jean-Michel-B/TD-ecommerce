@@ -9,9 +9,9 @@
 <body>
     <h1>Contactez-nous </h1>
     <p>Pour plus d'informations sur un produit ou notre société veuillez saisir le formulaire suivant </p>
-    <form action="traitement.php" method="get">
+    <form action="traitement.php" method="post">
         <p>
-            <label for="firstname">Prénom</label>
+            <label for="firstname">Prénom*</label>
             <input type="text" name="firstname"/>
         </p>
         <p>
@@ -19,7 +19,7 @@
             <input type="text" name="name"/>
         </p>
         <p>
-            <label for="email">Email</label>
+            <label for="email">Email*</label>
             <input type="email" name="email"/>
         </p>
         
