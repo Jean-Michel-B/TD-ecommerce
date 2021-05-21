@@ -8,3 +8,5 @@ function prixTTC ($prixHt, $taux=20) {
 
     return $prixTTC;
 } 
+
+toto
